@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>WebsiteGen</title> 
+  <link rel='stylesheet' id='mathlabs-style-css' href='style.css' type='text/css' media='all' /> 
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script> 
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js'></script>
+</head>
+<body class="mainbody">
+  <header>
+    <div class="wrap_container">
+      <span>WebSite Generator</span>
+    </div>
+  </header>
+  <main class="main_editor">
+    <div id="paper" class="container"></div>
+    <div class="tools_menu">
+      <div class="wrap_container">
+        <ul>
+          <li><button data-id="addbanner" class="tools_button">Банер</button></li>
+          <li><button data-id="addtitle" class="tools_button">Заголовок</button></li>
+          <li><button data-id="addtext" class="tools_button">Текст</button></li>
+          <li><button data-id="addquote" class="tools_button">Фраза</button></li>
+          <li><button data-id="addimage" class="tools_button">Изображение</button></li>
+          <li><button data-id="addseparator" class="tools_button">Линия</button></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div id="editor_panel" class="editor_panel">
+    <div id="close_editor_panel" class="close_editor_panel">
+      <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+          <title>068 Cancel</title>
+          <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+          <defs></defs>
+          <g id="Icons with numbers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Group" transform="translate(-624.000000, -144.000000)" fill="#000000">
+                  <path d="M623.984375,147.990967 L628.021851,143.99939 L632.010116,147.989884 L636,144 L640.019043,148.023682 L636.038873,152.020893 L640.033936,156.018188 L636.031738,160.062988 L632.026946,156.049999 L628.016357,160.077759 L624,156 L627.992602,152.007398 Z M623.984375,147.990967" id="Path 203"></path>
+              </g>
+          </g>
+      </svg>
+    </div>
+    <div id="banner_properties" class="properties_block">
+      <h3>Настройка банера</h3>
+      <form class="edit_properties_form">
+        <label for="banner_properties_input_title">Заголовок</label>
+        <input type="text" id="banner_properties_input_title" name="banner_properties_input_title" />
+        <label for="banner_properties_input_desc">Описание</label>
+        <textarea id="banner_properties_input_desc" name="banner_properties_input_desc"></textarea>
+        <button class="properties_submit">Принять</button>
+      </form>
+
+    </div>
+    <div id="text_properties" class="properties_block">
+      <h3>Настройка текста</h3>
+      <form class="edit_properties_form">
+        <textarea type="text" id="text_properties_input" name="text_properties_input_desc"></textarea>
+
+        <h4>Выравнивание текста</h4>
+        <input type="radio" id="prop_align_left" name="prop_align" value="left" />
+        <label for="prop_align_left">Левый край</label>
+        <input type="radio" id="prop_align_center" name="prop_align" value="center" />
+        <label for="prop_align_left">По центру</label>
+        <input type="radio" id="prop_align_right" name="prop_align" value="right" />
+        <label for="prop_align_left">Правый край</label>
+        <button class="properties_submit">Принять</button>
+      </form>
+    </div>
+    <div id="title_properties" class="properties_block">
+      <h3>Настройка заголовка</h3>
+      <form class="edit_properties_form">
+        <label for="title_properties_input">Заголовок</label>
+        <input type="text" id="title_properties_input" name="title_properties_input" />
+        <button class="properties_submit">Принять</button>
+      </form>
+
+    </div>
+    <div id="blockquote_properties" class="properties_block">
+      <h3>Настройка фразы</h3>
+      <form class="edit_properties_form">
+        <textarea type="text" id="blockquote_properties_input" name="blockquote_properties_input"></textarea>
+        <button class="properties_submit">Принять</button>
+      </form>
+
+    </div>
+    <div id="image_properties" class="properties_block">
+      <h3>Настройка изображения</h3>
+
+    </div>
+    <div id="separator_properties" class="properties_block">
+      <h3>Настройка разделителя</h3>
+
+    </div>
+  </div>
+  <footer>
+    <div class="wrap_container">
+    <span>2020 Websitegenerator</span>
+    </div>
+  </footer>
+  <script type="text/javascript" src='scripts.min.js'></script> 
+</body>
+</html>

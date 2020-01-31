@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --main: #1F2D48;
+    --red: #FB6539;
+    --buttonred: #F94814;
+    --lightred: #FFEADA;
+    --green: #6CC3B5;
+    --lightgreen: rgba(108, 195, 181, 0.1);
+    --blue: #1F2D48;
+    --lightblue: #50A6F6;
+    --darkblue: #0B2873;
+    --iconblue: #0B74D5;
+    --black: #000000;
+    --white: #ffffff;
+    --lightgray: #F8F9FA;
+    --bordergray: #EDF0F3;
+    --darkgray: #CDCFDC;
+    --tabletwidth: 980px;
+    --mobilewidth: 480px;
+
+}
+
+@lost flexbox flex;
+@lost gutter 30px;
+

@@ -1,0 +1,21 @@
+/*!
+Theme Name: WeebSiteGen theme
+Theme URI: https://.....
+Author: Rabdan (rabdan75@gmail.com)
+Author URI: http://
+Description: Themes for Buzzweb
+Version: 1.0.0
+*/
+/* CSS library plug-in example (npm i --save-dev normalize.css) */
+@import "../../node_modules/normalize.css/normalize.css";
+
+/* import settings */
+@import 'custom-properties.css';
+
+/* OWL  carousel 
+@import "../../node_modules/owl.carousel/dist/assets/owl.carousel.css";
+@import "../../node_modules/owl.carousel/dist/assets/owl.theme.default.css";
+*/
+@import 'main_styles.css';
+
+@import 'editor.css';

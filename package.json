@@ -1,0 +1,58 @@
+{
+  "name": "websitegen",
+  "version": "1.0.0",
+  "description": "websitegen",
+  "main": "index.js",
+  "dependencies": {
+    "body-scroll-lock": "^2.6.4",
+    "gaze": "^1.1.3",
+    "gulp-babel": "^7.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "lodash.foreach": "^4.5.0",
+    "lost": "^8.2.0",
+    "magnify": "^2.3.3",
+    "merge-stream": "^1.0.1",
+    "owl.carousel": "^2.3.4",
+    "postcss-colormin": "^2.2.2",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-image-set-polyfill": "^0.4.4",
+    "postcss-import": "^11.0.0",
+    "postcss-merge-longhand": "^3.0.0",
+    "postcss-merge-rules": "^2.1.2",
+    "postcss-unprefix": "^2.1.1",
+    "vanilla-lazyload": "^12.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "bootstrap": "^4.3.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify-es": "^1.0.4",
+    "normalize.css": "^8.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabdan"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Rabdan"
+}
